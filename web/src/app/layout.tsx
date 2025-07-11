@@ -3,16 +3,17 @@ import { Inter, Josefin_Sans, Lato, Montserrat, Poppins, Roboto, Rubik, Ubuntu, 
 
 import "@/styles/globals.css";
 
-const lato = Lato({
-  variable: "--font-lato",
-  subsets: ["latin"],
-  display: "swap",
-  weight: ["100", "300", "400", "700", "900"],
-});
+// const lato = Lato({
+//   variable: "--font-lato",
+//   subsets: ["latin"],
+//   display: "swap",
+//   weight: ["100", "300", "400", "700", "900"],
+// });
 
 const josefin = Josefin_Sans({
   variable: "--font-josefin",
   weight: ["100", "200", "300", "400", "500"],
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
